@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poems in Windows 98 Style</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #c0c0c0;
+            font-family: "Microsoft Sans Serif", sans-serif;
+            color: #000;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .window {
+            width: 100%;
+            height: 100%;
+            background-color: #f0f0f0;
+            border: 2px solid #000;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title-bar {
+            background-color: #000080;
+            color: #fff;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 14px;
+        }
+
+        .content {
+            padding: 10px;
+            overflow: auto;
+            flex-grow: 1;
+            height: calc(100% - 25px); /* Adjust content height to fit inside window */
+        }
+
+        .dialog-box {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #000;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .poem {
+            text-align: right;
+            direction: rtl;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <span class="title">الشعر العربي</span>
+        </div>
+        <div class="content">
+            <div class="dialog-box">
+                <p class="poem">قالت: أ أقول أحبك يا أماني؟</p>
+            </div>
+            <div class="dialog-box">
+                <p class="poem">
+                    قالت: عرفت الهوى مذ عرفت هواك<br>
+                    وأغلقت قلبي عن من عاداك<br>
+                    وقمت أناجيك يا من ترى<br>
+                    خفايا القلوب ولسنا نراك<br>
+                    أحبك حبين حب الهوى<br>
+                    وحباً لأنك أهل لذاك<br>
+                    فأما الذي هو حب الهوى<br>
+                    فشغلي بذكرك عمن سواك<br>
+                    وأما الذي أنت أهل له<br>
+                    فكشفك لي الحجب حتى أراك<br>
+                    فلا الحمد في ولا ذاك لي<br>
+                    ولكن لك الحمد فى ذا وذاك<br>
+                    أشتاق شوقين شوق النوى<br>
+                    وشوقاً لقرب الخلي من حماك<br>
+                    فأما الذى هو شوق النوى<br>
+                    فمسيرى الدموع لطول نواك<br>
+                    وأما اشتياقى لقرب الحمى<br>
+                    فنار حياة خبت في ضياك<br>
+                    ولست على الشجو أشكو الهوى<br>
+                    رضيت بما شئت لى في هداك
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
